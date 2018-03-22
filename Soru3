@@ -1,0 +1,11 @@
+x=0
+while True:
+    print("Bir sayı giriniz, Çıkış için (0):")
+    girilen=int(input("Sayi:  "))
+    if (girilen!=0) :
+        y=girilen%3
+        x=x+y
+        print ("x=",x)
+    else :
+        print ("Çıkış yapıldı")
+        break
